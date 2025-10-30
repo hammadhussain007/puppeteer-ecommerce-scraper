@@ -1,0 +1,17 @@
+node_modules/
+package-lock.json
+yarn.lock
+data/
+*.csv
+*.json
+.env
+.env.local
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
