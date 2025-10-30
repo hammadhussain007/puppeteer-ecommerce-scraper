@@ -1,0 +1,28 @@
+{
+  "name": "puppeteer-ecommerce-scraper",
+  "version": "1.0.0",
+  "description": "Educational project: E-commerce product scraping with Puppeteer - Case Study Comparison",
+  "main": "src/scraper.js",
+  "scripts": {
+    "start": "node src/scraper.js",
+    "scrape": "node src/scraper.js",
+    "analyze": "node src/analyze.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "web-scraping",
+    "ecommerce",
+    "case-study",
+    "education"
+  ],
+  "author": "hammadhussain007",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
